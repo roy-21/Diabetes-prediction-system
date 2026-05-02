@@ -1,0 +1,31 @@
+# Python / Environments
+venv/
+env/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node / Frontend
+node_modules/
+dist/
+build/
+.npm
+frontend/node_modules/
+frontend/dist/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data & Logs
+*.log
+drift_reports/
+
+# Environment Variables
+.env
+.env.local
+
+# Optional: exclude large Jupyter Notebooks if you don't want them tracked
+# Diabetes.ipynb
